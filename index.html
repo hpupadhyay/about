@@ -3,64 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hari Prasad Upadhyay - Android Developer</title>
-<style>
-  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 650px; margin: 60px auto; padding: 0 20px; line-height: 1.6; color: #333; }
-  h1 { font-size: 1.6em; margin-bottom: 0.1em; }
-  .muted { color: #666; font-size: 0.95em; }
-  a { color: #1a73e8; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .section { margin-top: 2.5em; }
-  .section h2 { font-size: 1.1em; margin-bottom: 0.8em; color: #444; border-bottom: 1px solid #ddd; padding-bottom: 0.3em; }
-  .apps { list-style: none; padding: 0; }
-  .apps li { margin-bottom: 1em; padding: 0.8em 1em; border: 1px solid #e0e0e0; border-radius: 8px; }
-  .apps li:hover { border-color: #1a73e8; }
-  .app-name { font-weight: 600; font-size: 1.05em; }
-  .app-desc { color: #666; font-size: 0.9em; margin-top: 0.2em; }
-  .contact { margin-top: 2.5em; }
-  .contact p { margin: 0.3em 0; }
-  .footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #eee; color: #999; font-size: 0.85em; text-align: center; }
-</style>
+<title>Hari Prasad Upadhyay — Android Developer</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>Hari Prasad Upadhyay</h1>
-<p class="muted">Android Developer</p>
+<header>
+  <div class="container">
+    <h1>Hari Prasad Upadhyay</h1>
+    <nav>
+      <a href="index.html">Apps</a>
+      <a href="https://hpupadhyay.github.io/about/app-ads.txt">Ads</a>
+    </nav>
+  </div>
+</header>
 
-<div class="section">
-  <h2>My Apps</h2>
-  <ul class="apps">
-    <li>
-      <div class="app-name"><a href="https://play.google.com/store/apps/details?id=com.moneytracker.exp">Expense Tracker</a></div>
-      <div class="app-desc">Track daily expenses and income with ease</div>
-    </li>
-    <li>
-      <div class="app-name"><a href="https://play.google.com/store/apps/details?id=com.financalc.calculator">Finance Calculator</a></div>
-      <div class="app-desc">Quick financial calculations for everyday use</div>
-    </li>
-    <li>
-      <div class="app-name"><a href="https://play.google.com/store/apps/details?id=com.income_tax_bare_act">Income Tax Act 2025</a></div>
-      <div class="app-desc">Complete Income-tax Act, 2025 and Rules, 2026 — offline reference</div>
-    </li>
-    <li>
-      <div class="app-name"><a href="https://play.google.com/store/apps/details?id=com.mrpcalculator.mrp_calculator">MRP &amp; Profit Calculator</a></div>
-      <div class="app-desc">Calculate MRP, profit margin, and discounts</div>
-    </li>
-    <li>
-      <div class="app-name"><a href="https://play.google.com/store/apps/details?id=com.tdscalculator.tds_calculator">TDS Calculator India</a></div>
-      <div class="app-desc">Calculate TDS deductions as per Indian tax rules</div>
-    </li>
-  </ul>
+<div class="hero">
+  <h2>Android Apps</h2>
+  <p>Simple, useful tools built for everyday life.</p>
 </div>
 
-<div class="contact">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:hariprasadupadhyay2@gmail.com">hariprasadupadhyay2@gmail.com</a></p>
+<div class="container">
+  <div class="apps-grid">
+
+    <div class="app-card">
+      <img class="icon" src="assets/expense-tracker.png" alt="Expense Tracker icon">
+      <h3>Expense Tracker</h3>
+      <p>Track daily expenses and income with ease. Fully offline, your financial data stays on your device.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.moneytracker.exp">Get on Play Store</a>
+      <a class="btn" href="apps/expense-tracker.html" style="background:#fff;color:#1a73e8;border:1px solid #1a73e8;margin-left:8px;">Details</a>
+    </div>
+
+    <div class="app-card">
+      <img class="icon" src="assets/finance-calculator.png" alt="Finance Calculator icon">
+      <h3>Finance Calculator</h3>
+      <p>Quick financial calculations — EMI, GST, investment, arbitrage, and more.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.financalc.calculator">Get on Play Store</a>
+      <a class="btn" href="apps/finance-calculator.html" style="background:#fff;color:#1a73e8;border:1px solid #1a73e8;margin-left:8px;">Details</a>
+    </div>
+
+    <div class="app-card">
+      <img class="icon" src="assets/income-tax.png" alt="Income Tax Acts 2025 icon">
+      <h3>Income Tax Acts 2025</h3>
+      <p>Complete Income-tax Act, 2025 and Rules, 2026 — fully offline reference with bookmarks and search.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.income_tax_bare_act">Get on Play Store</a>
+      <a class="btn" href="apps/income-tax-acts.html" style="background:#fff;color:#1a73e8;border:1px solid #1a73e8;margin-left:8px;">Details</a>
+    </div>
+
+    <div class="app-card">
+      <img class="icon" src="assets/mrp-calculator.png" alt="MRP & Profit Calculator icon">
+      <h3>MRP &amp; Profit Calculator</h3>
+      <p>Calculate MRP, profit margins, and discounts quickly and accurately.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.mrpcalculator.mrp_calculator">Get on Play Store</a>
+      <a class="btn" href="apps/mrp-calculator.html" style="background:#fff;color:#1a73e8;border:1px solid #1a73e8;margin-left:8px;">Details</a>
+    </div>
+
+    <div class="app-card">
+      <img class="icon" src="assets/tds-calculator.png" alt="TDS Calculator India icon">
+      <h3>TDS Calculator India</h3>
+      <p>Calculate TDS deductions as per Indian tax rules. Simple and accurate.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.tdscalculator.tds_calculator">Get on Play Store</a>
+      <a class="btn" href="apps/tds-calculator.html" style="background:#fff;color:#1a73e8;border:1px solid #1a73e8;margin-left:8px;">Details</a>
+    </div>
+
+  </div>
 </div>
 
-<div class="footer">
-  &copy; 2026 Hari Prasad Upadhyay
-</div>
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Hari Prasad Upadhyay &nbsp;|&nbsp; <a href="mailto:hariprasadupadhyay2@gmail.com">hariprasadupadhyay2@gmail.com</a></p>
+  </div>
+</footer>
 
 </body>
 </html>
